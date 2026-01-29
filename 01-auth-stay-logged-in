@@ -1,0 +1,20 @@
+
+# 01-auth-stay-logged-in
+
+**Brute-forcing a stay-logged-in cookie**  
+*PortSwigger Web Security Academy - Practitioner*
+
+## Vulnerability
+Weak MD5 hashing in `stay-logged-in` cookie allows offline brute-force attack.
+
+**Cookie Format**: `base64(username:md5(password))`
+
+## Tools
+- Burp Suite Intruder
+- HackVertor Extension
+- password list 
+
+## Attack Steps
+
+### 1. Cookie Analysis
+
