@@ -18,3 +18,4 @@ Weak MD5 hashing in `stay-logged-in` cookie allows offline brute-force attack.
 
 ### 1. Cookie Analysis
 
+
