@@ -18,4 +18,10 @@ Weak MD5 hashing in `stay-logged-in` cookie allows offline brute-force attack.
 
 ### 1. Cookie Analysis
 
+<img src="screenshots/01-cookie-decode.png" width="700">                                    
+
+Cookie with username=Wiener and password=peter is as shown. Decoder analisis shows the cookie was made by a base64 encoded combination of a MD5 hash of the password and the username.
+
+<img src="screenshots/01-intruder-setup" width="700>
+
 
