@@ -27,6 +27,6 @@ Cookie with username=Wiener and password=peter is as shown. Decoder analisis sho
 Change the id to "carlos", as it is the victims username. Build the request as shown with the Hackverter Extension and its tags.
 
 ### 3. Find the vulnerable response
-<img src="screenshots/01-attack-results.png" width="700
+<img src="screenshots/01-attack-results.png" width="700">
 
 You can find the response based on its length or its status code. You now have the password and the username of the victim.
