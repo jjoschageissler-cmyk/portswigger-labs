@@ -5,7 +5,8 @@
 *PortSwigger Web Security Academy - Expert*
 
 ## Vulnerability
-multiauthentication logic for single authentication login
+Website blocks after 3 wrong password request, but accepts `JSON arrays`. In the real world this might be due to the usage of the same logic for all of the websites
+log in forms, which can lead to a situation where a single password login is handled like a multiple auth login.
 
 
 
@@ -13,7 +14,10 @@ multiauthentication logic for single authentication login
 - password list
 - Burp Repeater
 
+## 
+
 ## Attack Steps
 
 ### 1. Analyse Request
+
 
