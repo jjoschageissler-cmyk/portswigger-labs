@@ -19,5 +19,11 @@ log in forms, which can lead to a situation where a single password login is han
 ## Attack Steps
 
 ### 1. Analyse Request
+After 3 wrong password attempts the website blocks you.
 
+### 2. generate array in VS code
+<img src="screenshots/02-generating-array.png" width="700">
 
+### 3. build final request
+<img src="screenshots/02-final-request.png" width="700">
+Paste array in request
