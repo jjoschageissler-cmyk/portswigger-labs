@@ -21,4 +21,14 @@ The enumeration responses reveal that the database is Oracle or Postgre.
 
 ### 2. build query
 <img src="screenshots/05-SQLi-query-repeater.png" width="700">
-Paste array in request
+You might have to try the two posible syntax for `Postgre and Oracle`.
+In this case it was `Postgre`.
+
+### 3. use Intruder to enumerate the password
+You could use a cluster bomb attack in order to be able to read the right symbol for the right index.
+This attempt is solwer, as you can run 20 attacks manually with the grep pause feature and a sniper attack, so the attacks do not have to be completed.
+<img src="screenshots/05-SQLi-intruder-setup.png" width="700">
+
+
+
+
