@@ -26,7 +26,7 @@ In this case it was `Postgre`.
 
 ### 3. use Intruder to enumerate the password
 You could use a cluster bomb attack in order to be able to read the right symbol for the right index.
-This attempt is solwer, as you can run 20 attacks manually with the grep pause feature and a sniper attack, so the attacks do not have to be completed.
+This attempt is solwer, as you can run 20 sniper attacks, so the attacks do not have to be completed.
 <img src="screenshots/05-SQLi-intruder-setup.png" width="700">
 
 
