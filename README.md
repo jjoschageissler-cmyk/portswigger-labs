@@ -10,6 +10,6 @@ PortSwigger Labs Progress | Learning Web Pentesting
 | SQL Injection | 16/18 | done* |
 | Access Control | 0/13 | starting |
 
-*Those either require Burp Suite Pro or need the knoledge of a other topic I haven't done yet.
+*The rest of the labs either require Burp Suite Pro or need the knoledge of a other topic I haven't done yet. 
 
 
