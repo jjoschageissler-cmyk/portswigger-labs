@@ -1,2 +1,15 @@
 # portswigger-labs
 PortSwigger Labs Progress | Learning Web Pentesting
+
+
+## Progress
+
+| Thema | Fortschritt | Status |
+|-------|-------------|--------|
+| Authentication | 13/14 | done* |
+| SQL Injection | 16/18 | done* |
+| Access Control | 0/13 | starting |
+
+** *Those either require Burp Suite Pro or need the knoledge of a other topic I haven't done yet.
+
+
