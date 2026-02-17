@@ -4,7 +4,7 @@ PortSwigger Labs Progress | Learning Web Pentesting
 
 ## Progress
 
-| Thema | Fortschritt | Status |
+| Subject | Progress | Status |
 |-------|-------------|--------|
 | Authentication | 13/14 | done* |
 | SQL Injection | 16/18 | done* |
