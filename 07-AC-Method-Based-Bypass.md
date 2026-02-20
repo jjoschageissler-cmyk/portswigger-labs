@@ -14,7 +14,7 @@ The website refuses `POST method requests` by ordinary users on the `URL /admin-
 The Lab lets you know the administrators username and password to observe the `admin panel`.
 
 ### 1. Observe the admin panel request 
-
+Intercept the request, which upgrades a user.
 <img src="" width="700">
 <img src="" width="700">
 
