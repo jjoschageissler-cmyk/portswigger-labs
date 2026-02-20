@@ -10,17 +10,14 @@ The website only verifies the password, if the username exists. So a request wit
 -Burp Repeater
 
 ## Attack Steps
-### Note:
-The Lab lets you know the administrators username and password to observe the `admin panel`.
 
-### 1. Observe the admin panel request 
+### 1. observe the login request 
+Notice that if you put in a very long and wrong password and your right username the response takes a lot longer than if you insert a wrong username and the same password.
 
-<img src="" width="700">
-<img src="" width="700">
+### 2. Intruder setup
+Place the payload position at the username field and insert a very long password in order to trigger a bigger delay. 
+The payload of the response with an unusual responsetime should contain a valid username.
 
-### 2. build the Turbo Intruder script
-
-<img src="screenshots/03-turbo-intruder-setup.png" width="700">
 
 # Processing..............
 
