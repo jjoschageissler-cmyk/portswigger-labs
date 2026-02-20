@@ -1,7 +1,7 @@
 # 04-auth-username-enumeration-response-time
 
 **auth-2FA-bypass-via-macro-supported-bruteforcing**
-*PortSwigger Web Security Academy - Ap*
+*PortSwigger Web Security Academy - Apprentice*
 
 ## Vulnerability
 This website has a `2FA`. The website implemented a mechanism meant to protect the 2FA code from `bruteforce attacks`.
