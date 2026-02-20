@@ -19,7 +19,6 @@ Place the payload position at the username field and insert a very long password
 The payload of the response with an unusual responsetime should contain a valid username.
 
 
-# Processing..............
 
 
 
