@@ -4,7 +4,7 @@
 *PortSwigger Web Security Academy - Apprentice*
 
 ## Vulnerability
-The website refuses `POST method requests` by ordinary users on the `URL /admin-roles`. The bypass lies in changing the method to `GET`. 
+The website only verifies the password, if the username exists. So a request with a legit username and wrong password will take the website longer to response.
 
 ## Tools
 -Burp Repeater
