@@ -1,6 +1,6 @@
 # 07-AC-Method-Based-Bypass
 
-**AC-Method-based-access-control-can-be-circumvented**
+**AC Method based access control can be circumvented**
 *PortSwigger Web Security Academy - Practitioner*
 
 ## Vulnerability
