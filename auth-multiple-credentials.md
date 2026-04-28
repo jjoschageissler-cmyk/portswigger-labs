@@ -1,5 +1,5 @@
 
-# 02-auth-multiple-credentials
+# auth-multiple-credentials
 
 **Bypassing rate limit with multiple credentials per request**
 *PortSwigger Web Security Academy - Expert*
