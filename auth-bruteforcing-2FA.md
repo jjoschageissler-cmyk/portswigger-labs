@@ -1,4 +1,4 @@
-# 03-auth-bruteforcing-2FA
+# auth-bruteforcing-2FA
 
 **auth-2FA-bypass-via-macro-supported-bruteforcing**
 *PortSwigger Web Security Academy - Expert*
