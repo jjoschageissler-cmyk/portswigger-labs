@@ -11,7 +11,7 @@ This website has a vulnerability in its profile avatar feature. `SVG` uses `XML`
 ## Attack Steps
 
 ### 1. create SVG
-Create a SVG that loads the 
+Create a SVG that loads the data from etc/hostname file into a text element.
 
 ## Proof
 
