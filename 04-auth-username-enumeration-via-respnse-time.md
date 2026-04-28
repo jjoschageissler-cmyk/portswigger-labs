@@ -1,4 +1,4 @@
-# 04-auth-username-enumeration-response-time
+# auth-username-enumeration-response-time
 
 **auth-username-enumeration-via-diffrent-response-time**
 *PortSwigger Web Security Academy - Apprentice*
