@@ -32,3 +32,7 @@ Nice to know: We must create the ent entity, because if we directly defined the 
 
 ### 4. execute
 If we now send the request, we will be able to see two requests in the exploit server logs. One for the external DTD and the second because of the exfil entity. The second should contain the searched data.
+<img src="screenshots/15-file-data.png" width="700">
+
+## Proof
+<img src="screenshots/15-proof.png" width="700"
