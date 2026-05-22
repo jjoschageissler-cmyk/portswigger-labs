@@ -35,4 +35,4 @@ If we now send the request, we will be able to see two requests in the exploit s
 <img src="screenshots/15-file-data.png" width="700">
 
 ## Proof
-<img src="screenshots/15-proof.png" width="700"
+<img src="screenshots/15-proof.png" width="700">
