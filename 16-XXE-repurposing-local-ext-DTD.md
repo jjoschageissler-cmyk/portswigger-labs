@@ -19,7 +19,8 @@ There is a restriction that prohibits to use a parameter entity within another p
 Those two are given by the lab from the beginning.
 
 ### 3. Build the payload
-
+We have to define the custom entity from the local DTD file in the local DTD. This entity holds the definition for the file entity (which loads the containments of the hostname file) and for the eval entity. The eval entity defines the error entity that loads a file name that doesen't exist but one  that contains the data we want to exfiltrate. This fie name is then reflected in a error message.
+<img src
 
 ## Proof
 <img src="" width="700">
