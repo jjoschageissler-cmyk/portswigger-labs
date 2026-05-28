@@ -1,4 +1,4 @@
-# 11-XXE-OOB-exfil
+# 16-XXE-OOB-exfil
 
 **Lab: Exploiting blind XXE to exfiltrate data using a malicious external DTD**
 
