@@ -14,12 +14,13 @@ The parameters in the check stock feature are transmitted to the webserver in a 
 ## Attack Steps
 
 ### 1. Find SQLi in request
-The Lab tells us that there is a SQLi vuln in the check stock feature, yet we don't know which parameter is inserted into a SQL query on the backend.
+The Lab tells us that there is a SQLi vuln in the check stock feature, yet we don't know which parameter is inserted into a SQL query on the backend. So the following payload has to be inserted in both possible parameters ´productID´ and ´storeID´.
+
 
 ### 2. build query
+We create the query to check for SQLi possibility with a simple UNION SELECT NULL and put hex_entitie tags around the whole SQLi query.
 <img src="screenshots/05-SQLi-query-repeater.png" width="700">
-You might have to try the two posible syntax for `Postgre and Oracle`.
-In this case it was `Postgre`.
+
 
 ### 3. use Intruder to enumerate the password
 You could use a cluster bomb attack in order to be able to read the right symbol for the right index.
