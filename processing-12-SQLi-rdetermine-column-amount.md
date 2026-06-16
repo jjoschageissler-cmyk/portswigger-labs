@@ -5,6 +5,7 @@
 
 ## Vulnerability
 There's a SQLi vuln that can be exploited with a UNION attack. The topic of this lab is to determine the number of columns returned by the original query so we know how to build the payload. The goal of the lab is to return a additional row consisting of NULL.
+
 ## Tools
 - Intruder
 - Burp repeater
