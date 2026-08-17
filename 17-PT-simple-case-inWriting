@@ -12,17 +12,12 @@ read/request files containing sensitive data.
 
 ## Tools
 - Burb Proxy
+
 ## Attack Steps
 
-### 1. intercept the request
+### 1. find
 
-### 2. Find a local DTD with a custom entity
-Those two are given by the lab from the beginning.
-
-### 3. Build the payload
-We have to define the custom entity from the local DTD file in the local DTD. This entity holds the definition for the file entity (which loads the containments of the hostname file) and for the eval entity. The eval entity defines the error entity that loads a file name that doesen't exist but one  that contains the data we want to exfiltrate. This fie name is then reflected in a error message.
 <img src="screenshots/16-payload.png" width="700">
-The process: The containments of the local external DTD file is stored in a SYSTEM entity. In that file the customisable entity, ISOamso, is called. We can define that entity by ourself.
 
 
 In that entity we now write the string that defines the file entity with the vulnerable information and uses this param entity within a string entity that holds the definition for the SYSTEM entity, error, that searches for a nonexisting file name. In the filname the file entity is called. 
