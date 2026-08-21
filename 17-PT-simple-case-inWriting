@@ -15,7 +15,8 @@ read/request files containing sensitive data.
 
 ## Attack Steps
 
-### 1. find
+### 1. find file path
+Escape the base path, the website is going to insert our file name into
 
 <img src="screenshots/16-payload.png" width="700">
 
