@@ -16,18 +16,10 @@ read/request files containing sensitive data.
 ## Attack Steps
 
 ### 1. find file path
-Escape the basepath with `../`. You may have to try several times, as you don't know how many directories the basepath consists of. If you don't use the correct amount of `../` the response tells you ´no such file or directory´.
+Escape the basepath with `../`. You may have to add several `../`. Then add the file you want to read and send the request.
 
 <img src="screenshots/16-payload.png" width="700">
 
-
-In that entity we now write the string that defines the file entity with the vulnerable information and uses this param entity within a string entity that holds the definition for the SYSTEM entity, error, that searches for a nonexisting file name. In the filname the file entity is called. 
-
-
-Then inside the ISOamso entity we also call the entity,ent, and after the entity error.
-
-
-When the ISOamso entity is called in the file entity is defined and inserted into the ent entity, which is allowed, because those definitions are inside the external DTD. Then the entity, error, is called and the error message is in the response containing the path to the nonexisting file and the path contains the data.
 
 ## Proof
 <img src="screenshots/16-proof.png" width="700">
