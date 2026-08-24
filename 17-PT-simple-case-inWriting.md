@@ -16,7 +16,7 @@ read/request files containing sensitive data.
 ## Attack Steps
 
 ### 1. find file path
-Escape the basepath with ´../´
+Escape the basepath with `../`. You may have to try several times, as you don't know how many directories the basepath consists of. If you don't use the correct amount of `../` the response tells you ´no such file or directory´.
 
 <img src="screenshots/16-payload.png" width="700">
 
