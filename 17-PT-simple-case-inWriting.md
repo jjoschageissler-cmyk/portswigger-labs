@@ -18,8 +18,8 @@ read/request files containing sensitive data.
 ### 1. find file path
 Escape the basepath with `../`. You may have to add several `../`. Then add the file you want to read and send the request.
 
-<img src="screenshots/16-payload.png" width="700">
+<img src="screenshots/17-payload.png" width="700">
 
 
 ## Proof
-<img src="screenshots/16-proof.png" width="700">
+<img src="screenshots/17-proof.png" width="700">
