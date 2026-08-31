@@ -18,9 +18,10 @@ The website takes a file name and inserts it in the base path where the images a
 ### 1. find file path
 Escape the basepath with `../`. You may have to add several `../`. Then add the file you want to read and send the request.
 
-<img src="screenshots/18-payload.png" width="700">
 
 ### 2. encode the sequences
+Put the `urlencode tags` around the sequences.
+<img src="screenshots/18-payload.png" width="700">
 
 ## Proof
 <img src="screenshots/18-proof.png" width="700">
