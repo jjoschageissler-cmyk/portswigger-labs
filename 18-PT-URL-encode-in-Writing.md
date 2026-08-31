@@ -5,7 +5,7 @@
 *PortSwigger Web Security Academy - Apprentice*
 
 ## Vulnerability
-The website takes a file name and inserts it in the base path where the images are. It defenses against path traversal by not accepting file paths containing `../` sequences or cutting them out. However it does filter bevore decoding it, so we can encode the sequences and they will slip right through.
+The website takes a file name and inserts it in the base path where the images are. It defenses against path traversal by not accepting file paths containing `../` sequences or cutting them out. However it does filter after decoding it once, so we can encode the sequences twice and they will slip right through.
 
 ## Preventions
 
