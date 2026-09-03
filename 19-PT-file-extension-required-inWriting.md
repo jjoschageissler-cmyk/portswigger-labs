@@ -20,9 +20,9 @@ Give the expected file extension at the end of the path. In this case it is `.jp
 ### 2. find file path
 Like in the previous labs we have to escape the basepath with `../`. You may have to add several `../`. 
 The final request looks like this:
-<img src="screen"
+<img src="screenshots/19-payload.png" width="700">
 
 
 
 ## Proof
-<img src="screenshots/17-proof.png" width="700">
+<img src="screenshots/19-proof.png" width="700">
